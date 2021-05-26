@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+.navbar{
+    text-transform: uppercase;
+    font: size 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0,0,0,0.6) !important;
+    padding: 20px 0;
+   
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:#fff;
+    padding-left: 20px;
+
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #1ebba3;
+}
+
+.heading-content{
+    position:absolute;
+    top:60%;
+    width:100%;
+    max-width: 100%;
+}
+
+.heading-content h5{
+    font-size: 2em;
+    font-weight: 300;
+    color: #000;
+    font-family: monospace;
+
+}
+
+.heading-content h1{
+    font-size: 3em;
+    font-weight: bolder;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#about .btn{
+    border:2px solid transparent;
+    width: 40px;
+    padding: 15px 22px;
+    background: #808080;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about .btn a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about .btn:hover{
+    border:2px solid #1ebba3;
+    cursor: pointer;
+}
+
+.row .card .card-body .card-text{
+    font-family: 'Poppins', sans-serif;
+}
+
+.row .card .card-body .card-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+
+.row .card .card-body .btn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+.row .card .card-body .btn:hover{
+    border:2px solid #1ebba3;
+    cursor: pointer;
+}
+
+#about{
+    font-family: 'Poppins', sans-serif;
+}
+
+#contact .btn:hover{
+    border:2px solid #1ebba3;
+    cursor: pointer;
+}
+
+.offset::before{
+    display: block;
+    content: "";
+    height: 6rem;
+}
+
+footer .btn{
+   margin-top: 2em;
+}
+
+#about a:hover{
+    color: #1ebba3;
+    font-weight: 300;
+   
+}
+#about a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px){
+
+    .navbar{
+        letter-spacing: 0.1em;
+        padding: 10px 0;
+    }
+
+  
+}
+

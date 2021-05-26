@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirisha Bongu</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+<!-- Nav/Header-->
+<div id="home">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+       </button>
+  
+     <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto">        
+           <li class="nav-item active ">
+             <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item ">
+             <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item ">
+               <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+        </ul>
+          
+      </div>
+    </nav>
+    <div class="background">
+      <img src="Assests/Backgroundimage.jpg" class="img-fluid">
+    </div>
+    <div class="heading-content text-center">
+      <h1>Shirisha Bongu</h1>
+      <h5>Software Developer</h5>
+    </div>
+</div>
+<!--About Me-->
+<div id="about" class="offset container mt-3 pb-5">
+   <div class="post-heading text-center"> 
+       <h3 class="display-4 font-weight-bold">About Me</h3>
+       <hr class="w-50 mx-auto pb-5">
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-12">
+            <img src="Assests/me.jpg" class="img-fluid">
+
+        </div>
+        <div class="col-lg-6 col-md-12 col-12">
+           <h2>Hello!</h2>
+           <hr>
+           <p class="text-justify">
+              My interest in programming was discovered while I was training for Clinical Reaserch Associate. 
+              I was intrested to know more about the statical analysis software tool(SAS) which is used to report the clinical data.
+              From there, I began consuming every online resource I could get my hands on, but they lacked the balanced curriculum that I knew I needed if I wanted to pursue programming as a career.
+              This spring, I joined in full time software development course in <a href="https://elevenfifty.org/">ELEVENFIFTY ACADEMY</a> that allowed me to continue to explore my passion for programming (c#). 
+              Additionally, this course offered workshops focused on Agile, Git, SQL and Azure which I became equally passionate about.
+           </p>
+           <h2>Skills</h2>
+           <hr>
+           <ul>
+               <li>.NET Framework</li>
+               <li>HTML/CSS</li>
+               <li>git/GitHub</li>
+               <li>SQL</li>
+               <li>Agile Scrum</li>
+               <li>Bootstrap</li>
+           </ul>
+           <button class="btn w-50">
+               <a href="#">Download My Resume</a>
+           </button>
+        </div>
+    </div>
+</div>
+
+<!--Projects-->
+<div id="projects" class="offset w-50 mx-auto mt-3 pb-5">
+    <div class="post-heading text-center"> 
+        <h3 class="display-4 font-weight-bold">Projects</h3>
+        <hr class="w-50 mx-auto pb-5">
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="card">
+                <img class="card-img-top" src="Assests/Codepen (3).png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">CSS Character Creation</h5>
+                  <p class="card-text">A character designed using only HTML and CSS.</p>
+                  <a href="https://codepen.io/ShirishaB/pen/abBRRob" class="btn btn-dark">Codepen Link</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="card">
+                <img class="card-img-top" src="Assests/Codepen (2).png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Static store front</h5>
+                  <p class="card-text">A static website for a store front using HTML/CSS Grid</p>
+                  <a href="https://github.com/ShirishaB88/StaticStoreFront.git" class="btn btn-dark">Git Repo</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="card">
+                <img class="card-img-top" src="Assests/Codepen (1).png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Web Application</h5>
+                  <p class="card-text">An aparmnet web application ASP.NET Web MVC</p>
+                  <a href="#" class="btn btn-dark">Git Repo</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+    
+</div>
+
+<!--Contact form-->
+<div id="Contact" class="offset w-50 mx-auto mt-3 pb-5">
+    <div class="post-heading text-center"> 
+        <h3 class="display-4 font-weight-bold">Contact Me</h3>
+        <hr class="w-50 mx-auto pb-5">
+    </div>
+    <form   action="https://formspree.io/f/mzbyrzdq"   method="POST">
+        <div class="form-group">
+         
+          <input type="text" class="form-control"  placeholder="*Name">
+        </div>
+        <div class="form-group">
+            
+            <input type="email" class="form-control" id="email" placeholder="*Email Address">
+        </div>
+        <div class="form-group m">
+            
+           <textarea class="form-control" placeholder="*Your Message"></textarea>
+        </div>
+        
+        <button type="submit" class="btn btn-dark">Send</button>
+    </form>  
+
+</div>
+
+<!--Footer-->
+<div >
+   <hr />
+   <footer class="bg-dark text-center text-white">   
+    <div class="container-fluid">    
+      <section class="mb-4">        
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/shirisha-bongu/" role="button"
+         >
+         <i class="fa fa-linkedin"></i>
+        </a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/ShirishaB88" role="button"
+          >
+          <i class="fa fa-github"></i>
+        </a>
+      </section>
+    </div>
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white">Shirisha Bongu</a>
+    </div>
+ </footer>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
